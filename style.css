@@ -142,15 +142,19 @@ footer{
     color: #000;
     font-weight: 500;
 }
-
+ul{
+    list-style: none !important;
+}
 
 
 .list ul{
     text-align: center;
+    list-style: none !important;
 }
 .list ul li{
     display: inline-block;
-    padding: 0 5px;   
+    padding: 0 5px;  
+     
 }
 li:hover{
     color: #000;
